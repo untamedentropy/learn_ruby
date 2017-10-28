@@ -19,7 +19,28 @@
 
 require "pig_latin"
 
+###
+=begin puts "a"
+puts letter_type("a")
+
+puts "q"
+puts letter_type("q")
+
+
+puts("qfee")
+puts letter_type("qfee")
+
+puts("queen")
+puts letter_type("queen")
+
+puts("sch")
+puts letter_type("sch")
+=end
+###
+
 describe "#translate" do
+
+  puts translate("apple")
 
   it "translates a word beginning with a vowel" do
     s = translate("apple")
