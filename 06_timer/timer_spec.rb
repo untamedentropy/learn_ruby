@@ -9,6 +9,15 @@
 
 require 'timer'
 
+
+puts sec_to_s(0)
+
+puts sec_to_s(59)
+
+puts sec_to_s(120)
+
+puts sec_to_s(3601)
+
 describe "Timer" do
   before(:each) do
     @timer = Timer.new
